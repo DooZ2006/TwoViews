@@ -16,19 +16,35 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p2t-pG-tsR">
-                                <rect key="frame" x="20" y="44" width="374" height="395"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p2t-pG-tsR">
+                                <rect key="frame" x="20" y="64" width="374" height="390"/>
+                                <viewLayoutGuide key="safeArea" id="E7r-uh-Nkd"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Etc-ej-ub7">
-                                <rect key="frame" x="20" y="467" width="374" height="395"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Etc-ej-ub7">
+                                <rect key="frame" x="20" y="472" width="374" height="390"/>
+                                <viewLayoutGuide key="safeArea" id="x2d-Cu-XYX"/>
                                 <color key="backgroundColor" systemColor="systemPinkColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="p2t-pG-tsR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="99a-SB-g6B"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="p2t-pG-tsR" secondAttribute="trailing" constant="20" id="Ki1-sL-Ptg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Etc-ej-ub7" secondAttribute="trailing" constant="20" id="O4G-Bf-crc"/>
+                            <constraint firstItem="p2t-pG-tsR" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="20" id="V9p-OT-dxg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="p2t-pG-tsR" secondAttribute="trailing" constant="20" id="WZZ-Uv-mKM"/>
+                            <constraint firstItem="Etc-ej-ub7" firstAttribute="top" secondItem="p2t-pG-tsR" secondAttribute="bottom" constant="18" id="ZMC-VH-yFG"/>
+                            <constraint firstItem="Etc-ej-ub7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ddD-qR-HeU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Etc-ej-ub7" secondAttribute="trailing" constant="20" id="lJx-4a-mRI"/>
+                            <constraint firstItem="Etc-ej-ub7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="lZK-Qf-NM8"/>
+                            <constraint firstItem="Etc-ej-ub7" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="ow7-bG-WhV"/>
+                            <constraint firstItem="Etc-ej-ub7" firstAttribute="width" secondItem="p2t-pG-tsR" secondAttribute="width" id="pMC-aK-1cj"/>
+                            <constraint firstItem="p2t-pG-tsR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="spU-9i-D5a"/>
+                            <constraint firstItem="Etc-ej-ub7" firstAttribute="height" secondItem="p2t-pG-tsR" secondAttribute="height" id="whP-bP-eIP"/>
+                            <constraint firstItem="Etc-ej-ub7" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="zkO-HG-yQ0"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
